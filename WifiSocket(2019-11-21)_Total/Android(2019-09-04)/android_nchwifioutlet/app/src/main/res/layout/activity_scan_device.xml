@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:id="@+id/frame"
+        android:background="@color/primary">
+
+        <!--<Button
+            android:id="@+id/title_bar_left_menu"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_back_arrow"
+            android:visibility="gone" />-->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="7dp"
+            android:text="Scanned Devices"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <!--<Button
+            android:id="@+id/title_bar_right_menu"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_right_arrow"
+            android:visibility="gone" />-->
+    </FrameLayout>
+
+    <!--<TextView
+        android:id="@+id/wifiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Wifi Name :"
+        android:textColor="@color/primary_dark"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/wifiName"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_wifi_name"
+        android:textColor="@color/gray_80_text"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+    />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_wifiPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/wifiName"
+        android:layout_gravity="center_horizontal"
+    >
+
+    <EditText
+        android:id="@+id/ed_wifiPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Wifi Password"
+        android:text="8lh6g7bqf7"
+    />
+</android.support.design.widget.TextInputLayout>-->
+    <!--插座-->
+    <!--<LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/outlet_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/configuration">
+
+        <TextView
+            android:id="@+id/outlet_gridview_ctl"
+            android:layout_width="@dimen/DIMEN_100PX"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/outlet"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size22" />
+
+        <com.chug.northconnectedhome.view.DragGridView
+            android:id="@+id/outlet_scan_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/DIMEN_14PX"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="5"
+            android:verticalSpacing="@dimen/DIMEN_30PX" />
+
+    </LinearLayout>-->
+
+    <!--<Button
+        android:id="@+id/configuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:background="@color/primary"
+        android:layout_alignParentBottom="true"
+        android:text="Scanning Device"
+        android:layout_marginBottom="10dp"/>
+-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_scanned_devices"
+        android:layout_below="@+id/frame"
+    />
+</RelativeLayout>

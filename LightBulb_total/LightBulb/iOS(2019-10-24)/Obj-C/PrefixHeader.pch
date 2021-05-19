@@ -1,0 +1,71 @@
+//
+//  PrefixHeader.pch
+//  Light Bulb
+//
+//  Created by king on 2019/9/14.
+//  Copyright © 2019 king. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define IOS8 ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0 && [[UIDevice currentDevice].systemVersion doubleValue] < 9.0)
+#define IOS8_10 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 && [[UIDevice currentDevice].systemVersion doubleValue] < 10.0)
+#define IOS10 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0)
+
+#define IOS7_OR_LATER ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
+#define K_Font @"FZLTCXHJW--GB1-0"//字体
+#define imgY ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] == NSOrderedAscending ? -20 : 0)
+#define OFFSET_Y ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] == NSOrderedAscending ? 20 : 0)
+
+
+#define K_StatusBar_Height  [[UIApplication sharedApplication] statusBarFrame].size.height
+#define K_NavBar_Height     44.0
+
+#define k_TabBarHeight     (K_StatusBar_Height>20?83:49)
+#define k_TopHeight        (K_StatusBar_Height + K_NavBar_Height)
+
+#define k_screenWidth     [[UIScreen mainScreen] bounds].size.width
+#define k_screenHeight    [[UIScreen mainScreen] bounds].size.height
+#define k_Height_Show     k_screenHeight - k_TopHeight - k_TabBarHeight
+
+#define THEME_RGB             RGB(41,198,167)
+#define THEME_BOTTOM_RGB      RGB(55,174,153)
+#define BACKGROUP_RGB         RGB(240,240,240)
+#define LINE_BACKGROUP        RGB(41,36,33)
+
+//Color
+#define RGB(r, g, b)    [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+#define URLRequest @"139.196.43.163:88"
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1472), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define sysDege (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+#define thumbWitch 50
+
+//#ifndef __OPTIMIZE__
+//#define NSLog(...) printf("%f %s\n",[[NSDate date]timeIntervalSince1970],[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+//#endif
+
+#define Color14191e [UIColor colorWithRed:245 / 255.0 green:245 / 255.0 blue:245 / 255.0 alpha:1]
+#define Color3DBD77 [UIColor colorWithRed:68 / 255.0 green:195 / 255.0 blue:178 / 255.0 alpha:1]
+#define ColorFFB3C9 [UIColor colorWithRed:255 / 255.0 green:179 / 255.0 blue:201 / 255.0 alpha:1]
+#define kStoreAppId  @"1141808655"
+//服务所用的UUID
+#define UUID_SERVICE @"0000ffe0-0000-1000-8000-00805f9b34fb"
+//特征所用的UUID
+#define UUID_CHARACTERISTIC @"0000ffe1-0000-1000-8000-00805f9b34fb"
+//描述所用的UUID
+#define UUID_DESCRIPTOR @"00002902-0000-1000-8000-00805f9b34fb"
+//蓝牙密码
+#define BLE_PWD @"mk:0000"
+
+#define BLe_Coloer @"ctl:0:255:0:0:"
+
+#endif /* PrefixHeader_pch */
+

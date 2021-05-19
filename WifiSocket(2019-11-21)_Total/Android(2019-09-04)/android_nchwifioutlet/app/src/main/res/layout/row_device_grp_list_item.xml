@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:padding="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/_001" />
+
+    <TextView
+        android:id="@+id/txtOnTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/imgIcon"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:text="TextView"
+        android:textColor="#6c6c6c"
+        android:textSize="20sp" />
+
+    <!--<ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:tint="@color/primary_dark"
+        android:src="@drawable/power"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />-->
+
+    <TextView
+        android:id="@+id/txtOffTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOnTime"
+        android:layout_toEndOf="@+id/imgIcon"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:text="TextView"
+        android:textColor="#DD6c6c6c"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:src="@drawable/selected_item_icon"
+        android:id="@+id/iv_select_device_tick"/>
+    <!--<TextView
+        android:id="@+id/txtSwitchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgIcon"
+        android:layout_alignLeft="@+id/imgStatus"
+        android:layout_alignStart="@+id/imgStatus"
+        android:text=" on "
+        android:textColor="#DD6c6c6c"
+        android:textSize="20sp" />-->
+</RelativeLayout>

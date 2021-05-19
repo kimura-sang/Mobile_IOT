@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AKSideMenu" "${PODS_CONFIGURATION_BUILD_DIR}/Ahoy" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift" "${PODS_CONFIGURATION_BUILD_DIR}/PGDatePicker" "${PODS_CONFIGURATION_BUILD_DIR}/PGPickerView" "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit" "${PODS_CONFIGURATION_BUILD_DIR}/SkyFloatingLabelTextField"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AKSideMenu/AKSideMenu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Ahoy/Ahoy.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PGDatePicker/PGDatePicker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PGPickerView/PGPickerView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AKSideMenu" -framework "Ahoy" -framework "CoreGraphics" -framework "Foundation" -framework "IQKeyboardManagerSwift" -framework "PGDatePicker" -framework "PGPickerView" -framework "Photos" -framework "QMUIKit" -framework "QuartzCore" -framework "SkyFloatingLabelTextField" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

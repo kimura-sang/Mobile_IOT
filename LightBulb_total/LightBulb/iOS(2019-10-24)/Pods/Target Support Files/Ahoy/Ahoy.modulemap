@@ -1,0 +1,6 @@
+framework module Ahoy {
+  umbrella header "Ahoy-umbrella.h"
+
+  export *
+  module * { export * }
+}

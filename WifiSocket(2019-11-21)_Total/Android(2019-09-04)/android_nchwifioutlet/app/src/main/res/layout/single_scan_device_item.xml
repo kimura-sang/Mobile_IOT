@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:paddingLeft="5dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/iv_scan_device"
+        android:src="@drawable/single_outlet_warning"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        android:id="@+id/tv_scan_wifi_name"
+        android:textColor="@color/primary_dark"
+        android:layout_toRightOf="@+id/iv_scan_device"
+        android:text="Jio Fi"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+    />
+</RelativeLayout>

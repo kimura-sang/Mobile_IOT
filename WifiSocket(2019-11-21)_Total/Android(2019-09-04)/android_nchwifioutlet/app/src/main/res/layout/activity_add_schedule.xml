@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/activity_user_account_manage"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@android:color/white"
+>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_add_schedule_back"
+                android:background="?attr/selectableItemBackgroundBorderless"
+            >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back_arrow"
+                    android:layout_centerInParent="true"
+                />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/Add_Schedule"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/rl_schedule_save"
+                android:paddingRight="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <!--<Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />-->
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="25dp"
+              android:paddingRight="25dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_time"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/primary_dark"
+    />
+
+    <TextView
+        android:id="@+id/txtOnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radius_button_medium"
+        android:clickable="false"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp" />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/end_time"
+              android:textSize="22sp"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/primary_dark"
+              />
+    <TextView
+        android:id="@+id/txtOffTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/radius_button_medium"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_sunday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_monday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_tuesday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="W"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_wednesday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_thursday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_friday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chb_saturday"
+                android:buttonTint="@color/primary_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="@string/select_device"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/gray_80_text"
+              android:textSize="18sp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_schedule_devices"
+        android:divider="@color/gray_btn_bg_pressed_color"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"
+    />
+
+</LinearLayout>
+</LinearLayout>

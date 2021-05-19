@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="appliancesIcon">
+        <item>@drawable/_001</item>
+        <item>@drawable/_002</item>
+        <item>@drawable/_003</item>
+        <item>@drawable/_004</item>
+        <item>@drawable/_005</item>
+        <item>@drawable/_006</item>
+        <item>@drawable/_007</item>
+        <item>@drawable/_008</item>
+        <item>@drawable/_009</item>
+        <item>@drawable/_010</item>
+        <item>@drawable/_011</item>
+        <item>@drawable/_012</item>
+        <item>@drawable/_013</item>
+        <item>@drawable/_014</item>
+        <item>@drawable/_015</item>
+        <item>@drawable/_016</item>
+        <item>@drawable/_017</item>
+        <item>@drawable/_018</item>
+        <item>@drawable/_019</item>
+        <item>@drawable/_020</item>
+        <item>@drawable/_021</item>
+        <item>@drawable/_022</item>
+        <item>@drawable/_023</item>
+        <item>@drawable/_024</item>
+        <item>@drawable/_025</item>
+        <item>@drawable/_026</item>
+        <item>@drawable/_027</item>
+        <item>@drawable/_028</item>
+        <item>@drawable/_029</item>
+        <item>@drawable/_030</item>
+        <item>@drawable/_031</item>
+        <item>@drawable/_032</item>
+        <item>@drawable/_033</item>
+        <item>@drawable/_034</item>
+        <item>@drawable/_035</item>
+        <item>@drawable/_036</item>
+        <item>@drawable/_037</item>
+        <item>@drawable/_038</item>
+        <item>@drawable/_039</item>
+        <item>@drawable/_040</item>
+        <item>@drawable/_040</item>
+        <item>@drawable/_041</item>
+        <item>@drawable/_042</item>
+        <item>@drawable/_043</item>
+        <item>@drawable/_044</item>
+        <item>@drawable/_045</item>
+        <item>@drawable/_046</item>
+        <item>@drawable/_047</item>
+        <item>@drawable/_048</item>
+        <item>@drawable/_049</item>
+        <item>@drawable/_050</item>
+        <item>@drawable/_051</item>
+        <item>@drawable/_052</item>
+        <item>@drawable/_053</item>
+        <item>@drawable/_054</item>
+        <item>@drawable/_055</item>
+        <item>@drawable/_056</item>
+        <item>@drawable/_057</item>
+        <item>@drawable/_058</item>
+        <item>@drawable/_059</item>
+        <item>@drawable/_060</item>
+        <item>@drawable/_061</item>
+        <item>@drawable/_062</item>
+        <item>@drawable/_063</item>
+        <item>@drawable/_064</item>
+        <item>@drawable/_065</item>
+        <item>@drawable/_066</item>
+        <item>@drawable/_067</item>
+        <item>@drawable/_068</item>
+        <item>@drawable/_069</item>
+        <item>@drawable/_070</item>
+        <item>@drawable/_071</item>
+        <item>@drawable/_072</item>
+        <item>@drawable/_073</item>
+        <item>@drawable/_074</item>
+        <item>@drawable/_075</item>
+        <item>@drawable/_076</item>
+        <item>@drawable/_077</item>
+        <item>@drawable/_078</item>
+        <item>@drawable/_079</item>
+        <item>@drawable/_080</item>
+        <item>@drawable/_081</item>
+        <item>@drawable/_082</item>
+        <item>@drawable/_083</item>
+        <item>@drawable/_084</item>
+        <item>@drawable/_085</item>
+        <item>@drawable/_086</item>
+        <item>@drawable/_087</item>
+        <item>@drawable/_088</item>
+        <item>@drawable/_089</item>
+        <item>@drawable/_090</item>
+        <item>@drawable/_091</item>
+        <item>@drawable/_092</item>
+        <item>@drawable/_093</item>
+        <item>@drawable/_094</item>
+        <item>@drawable/_095</item>
+        <item>@drawable/_096</item>
+        <item>@drawable/_097</item>
+        <item>@drawable/_098</item>
+        <item>@drawable/_099</item>
+        <item>@drawable/_100</item>
+        <item>@drawable/_101</item>
+        <item>@drawable/_102</item>
+        <item>@drawable/_103</item>
+        <item>@drawable/_104</item>
+        <item>@drawable/_105</item>
+        <item>@drawable/_106</item>
+        <item>@drawable/_107</item>
+        <item>@drawable/_108</item>
+        <item>@drawable/_109</item>
+        <item>@drawable/_110</item>
+        <item>@drawable/_111</item>
+        <item>@drawable/_112</item>
+        <item>@drawable/_113</item>
+        <item>@drawable/_114</item>
+        <item>@drawable/_115</item>
+        <item>@drawable/_116</item>
+        <item>@drawable/_117</item>
+        <item>@drawable/_118</item>
+        <item>@drawable/_119</item>
+        <item>@drawable/_120</item>
+        <item>@drawable/_121</item>
+        <item>@drawable/_122</item>
+        <item>@drawable/_123</item>
+        <item>@drawable/_124</item>
+        <item>@drawable/_125</item>
+        <item>@drawable/_126</item>
+        <item>@drawable/_127</item>
+        <item>@drawable/_128</item>
+        <item>@drawable/_129</item>
+        <item>@drawable/_130</item>
+        <item>@drawable/_131</item>
+        <item>@drawable/_132</item>
+        <item>@drawable/_133</item>
+        <item>@drawable/_134</item>
+        <item>@drawable/_135</item>
+    </integer-array>
+
+    <!-- 语言 -->
+    <string-array name="language_entries">
+        <item>@string/language_default</item>
+        <item>@string/language_chinese</item>
+        <item>@string/language_english</item>
+        <item>@string/language_japanese</item>
+    </string-array>
+    <!-- 背景 -->
+    <string-array name="choose_bg_entries">
+        <item>@string/local_piture</item>
+        <item>@string/camera</item>
+        <item>@string/default_bg</item>
+    </string-array>
+    <!-- 网络 -->
+    <string-array name="net_entries">
+        <item>@string/net_lan</item>
+        <item>@string/net_remote</item>
+    </string-array>
+    <!-- 场景备选名称 -->
+    <string-array name="screen_name">
+        <item>@string/screen_name_home_garden</item>
+        <item>@string/screen_name_living_room</item>
+        <item>@string/screen_name_kitchen</item>
+        <item>@string/screen_name_toilet</item>
+        <item>@string/screen_name_master_bedroom</item>
+        <item>@string/screen_name_second_bedroom</item>
+        <item>@string/screen_name_children_room</item>
+        <item>@string/screen_name_book_room</item>
+        <item>@string/screen_name_living_room_left</item>
+        <item>@string/screen_name_living_room_right</item>
+        <item>@string/screen_name_corridor</item>
+        <item>@string/screen_name_aisle</item>
+        <item>@string/screen_name_utility_room</item>
+        <item>@string/screen_name_balcony</item>
+        <item>@string/screen_name_bedroom</item>    <!-- 场景备选名称 -->
+    </string-array>
+    <string-array name="screen_pic">
+        <item>@string/screen_name_home_garden</item>
+        <item>@string/screen_name_living_room</item>
+        <item>@string/screen_name_kitchen</item>
+        <item>@string/screen_name_toilet</item>
+        <item>@string/screen_name_master_bedroom</item>
+        <item>@string/screen_name_second_bedroom</item>
+        <item>@string/screen_name_children_room</item>
+        <item>@string/screen_name_book_room</item>
+        <item>@string/screen_name_living_room_left</item>
+        <item>@string/screen_name_living_room_right</item>
+        <item>@string/screen_name_corridor</item>
+        <item>@string/screen_name_aisle</item>
+        <item>@string/screen_name_utility_room</item>
+        <item>@string/screen_name_balcony</item>
+        <item>@string/screen_name_bedroom</item>
+    </string-array>
+    <string-array name="defule_screen_name">
+        <item>@string/screen_name_home_garden</item>
+        <item>@string/screen_name_living_room</item>
+        <item>@string/screen_name_kitchen</item>
+        <item>@string/screen_name_toilet</item>
+        <item>@string/screen_name_master_bedroom</item>
+    </string-array>
+    <!--灯光模式-->
+    <string-array name="light_model">
+        <item>@string/model_white</item>
+        <item>@string/model_yellow</item>
+        <item>@string/model_warm_white</item>
+        <item>@string/model_night_light</item>
+    </string-array>
+    <!-- 预留情景模式 -->
+    <string-array name="lexin_model">
+        <item>@string/model_white</item>
+        <item>@string/model_reading</item>
+        <item>@string/model_release</item>
+        <item>@string/model_romantic</item>
+        <item>@string/model_night_light</item>
+
+        <item>@string/model_action</item>
+        <item>@string/model_breathe</item>
+        <item>@string/model_stroboscopic</item>
+        <item>@string/model_neon</item>
+        <item>@string/model_three_color_jump</item>
+        <item>@string/model_three_color_breathing</item>
+        <item>@string/model_three_color_stroboscopic</item>
+        <item>@string/model_seven_color_jump</item>
+        <item>@string/model_seven_color_breathing</item>
+        <item>@string/model_seven_color_stroboscopic</item>
+    </string-array>
+
+    <!-- 预留情景模式 -->
+    <string-array name="reserved_model">
+        <item>@string/model_no</item>
+        <item>@string/model_reading</item>
+        <item>@string/model_release</item>
+        <item>@string/model_romantic</item>
+        <item>@string/model_action</item>
+    </string-array>
+    <!-- 长按dialog子项 -->
+    <string-array name="longclick_array">
+        <item>@string/fix_name</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="wifi_select_entries">
+        <item>@string/fix_name</item>
+        <item>@string/update_hardware</item>
+    </string-array>
+    <string-array name="timer_repeat">
+        <item>@string/once</item>
+        <item>@string/every_day</item>
+        <item>@string/working_day</item>
+        <item>@string/weekend</item>
+        <item>@string/custom</item>
+    </string-array>
+    <string-array name="week_array">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+        <item>@string/sunday</item>
+    </string-array>
+    <string-array name="switch_ctl_array">
+        <item>@string/switch_1</item>
+        <item>@string/switch_2</item>
+        <item>@string/switch_3</item>
+        <item>@string/switch_all</item>
+    </string-array>
+    <string-array name="switch_ctl_double_array">
+        <item>@string/switch_1</item>
+        <item>@string/switch_2</item>
+        <item>@string/switch_all</item>
+    </string-array>
+    <string-array name="login_array">
+        <item>@string/remote_login</item>
+        <item>@string/lan_login</item>
+       <!-- <item>@string/free_login</item>-->
+    </string-array>
+    <string-array name="curtain_speed">
+        <item>@string/c_speed_1</item>
+        <item>@string/c_speed_2</item>
+        <item>@string/c_speed_3</item>
+        <item>@string/c_speed_4</item>
+    </string-array>
+    <string-array name="curtain_control_array">
+        <item>@string/whole_open</item>
+        <item>@string/half_open</item>
+        <item>@string/whole_close</item>
+    </string-array>
+    <string-array name="power_strip_array">
+        <item>@string/power_strip_usb</item>
+        <item>@string/power_strip_1</item>
+        <item>@string/power_strip_2</item>
+        <item>@string/power_strip_3</item>
+        <item>@string/power_strip_4</item>
+        <item>@string/power_strip_all</item>
+    </string-array>
+
+    <array name="snooze_dismiss_descriptions">
+        <item>dismiss</item>
+        <item>@null</item>
+        <item>snooze</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>left</item>
+        <item>@null</item>
+    </array>
+
+    <string-array name="language_list">
+        <item>简体中文</item>
+        <item>English</item>
+    </string-array>
+
+</resources>

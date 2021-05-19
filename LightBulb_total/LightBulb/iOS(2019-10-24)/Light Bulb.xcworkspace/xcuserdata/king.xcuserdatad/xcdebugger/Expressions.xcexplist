@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EditScheduleViewController.tableView(_:didSelectRowAt:):EditScheduleViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedId">
+            </PersistentString>
+            <PersistentString
+               value = "(!editScheduleModel[indexPath.row].selectStatus)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GroupViewController.tableView(_:didSelectRowAt:):GroupViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "peripherals!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedDevicesViewController.centralManager(_:didConnect:):ScannedDevicesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "peripheral.services">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedDevicesViewController.searchBleDevices():ScannedDevicesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "discoveredPeripheral.state">
+            </PersistentString>
+            <PersistentString
+               value = "discoveredPeripheral">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static UtilFunctions.getCurrentTimezoneIdentifier():UtilFunctions.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "zone[&quot;offset&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ColorCircleView setColorImageSize:]:ColorCircleView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.colorCircleImageView.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "self.colorCircleImageView.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ColorSelectView createButton]:ColorSelectView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "Width_Space">
+            </PersistentString>
+            <PersistentString
+               value = " self.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ColorPaletteViewController.initCircleView():ColorPaletteViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parentView.frame.origin.y">
+            </PersistentString>
+            <PersistentString
+               value = "parentView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AppDelegate.timerRunning():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "__TIMERS[i].minute * 60">
+            </PersistentString>
+            <PersistentString
+               value = "timestamp">
+            </PersistentString>
+            <PersistentString
+               value = "__TIMERS[i].startDateTimeInt">
+            </PersistentString>
+            <PersistentString
+               value = "__TIMERS[i].second">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ColorCircleView initColorCircle]:ColorCircleView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.colorCircleImageView.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MusicViewController.viewWillAppear(_:):MusicViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "recordView.device">
+            </PersistentString>
+            <PersistentString
+               value = "recordView.device!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ColorPaletteViewController.brightSliderClick(_:):ColorPaletteViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender as! Float">
+            </PersistentString>
+            <PersistentString
+               value = "sender">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailScheduleViewController.viewWillAppear(_:):DetailScheduleViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scheduleModel?.openTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

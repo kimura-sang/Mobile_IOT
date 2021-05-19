@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/activity_user_account_manage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_above="@+id/btn_delete_group"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_add_grp_back"
+                android:background="?attr/selectableItemBackgroundBorderless"
+            >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back_arrow"
+                    android:layout_centerInParent="true"
+                />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/Add_Group"
+                android:id="@+id/tv_edit_grp_title"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+            <RelativeLayout android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:id="@+id/rl_grp_save"
+                            android:paddingRight="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/iv_grp1"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="20dp"
+    app:civ_border_color="@color/primary"
+    app:civ_border_width="3dp"
+    android:visibility="gone"
+    android:src="@drawable/add_device_default" />
+
+    <ImageView
+        android:id="@+id/iv_grp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:background="@drawable/radius_button_medium"
+        android:src="@drawable/add_device_default_small" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_grp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_grp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+    >
+
+        <EditText
+            android:id="@+id/ed_grp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtOnTime"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/imgIcon"
+            android:layout_toRightOf="@+id/imgIcon"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:ems="15"
+            android:hint="Group Name"
+            android:inputType="textPersonName"
+            android:maxLength="10"
+            android:textSize="25sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+   <!-- <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Add Group" />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Select Devices"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+    />
+    <ListView
+        android:id="@+id/lv_grp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:id="@+id/btn_delete_group"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="17sp"
+        android:background="@color/playback_btn_p"
+        android:text="@string/delete"
+        android:textAllCaps="false"
+        android:textColor="@color/red_btn_bg_pressed_color"/>
+</RelativeLayout>

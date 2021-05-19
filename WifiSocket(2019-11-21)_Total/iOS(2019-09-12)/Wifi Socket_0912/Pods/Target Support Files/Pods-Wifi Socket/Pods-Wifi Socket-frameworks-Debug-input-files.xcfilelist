@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-Wifi Socket/Pods-Wifi Socket-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AKSideMenu/AKSideMenu.framework
+${BUILT_PRODUCTS_DIR}/Ahoy/Ahoy.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/EspTouch/EspTouch.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
+${BUILT_PRODUCTS_DIR}/WWCalendarTimeSelector/WWCalendarTimeSelector.framework

@@ -1,0 +1,6 @@
+framework module Pods_Wifi_SocketUITests {
+  umbrella header "Pods-Wifi SocketUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

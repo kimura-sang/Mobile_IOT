@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_app_tip">click again exit program</string>
+    <string name="cloud_user_extrusion_tip">This account register on other device, if you would like to login again?</string>
+    <string name="please_select_device">Please connect the device first</string>
+    <string name="send_success">Sent successfully</string>
+    <string name="send_data_timeout">Send data expired，try again</string>
+    <string name="zig_device_tip">This function only works for Zigbee system device, please connect to Gateway first</string>
+    <string name="tele_device_tip">The current connection is not infrared device </string>
+
+
+    <!--  -->
+    <string name="add_custom_name">Custom name </string>
+    <string name="refresh_status">Refresh Status</string>
+    <string name="outlet_scene">Socket main scene</string>
+    <string name="switch_scene">Switch main scene</string>
+    <string name="curtains_scene">Curtain main scene</string>
+    <string name="pusher_scene">Window pusher main scene</string>
+    <string name="choose">Choose</string>
+    <string name="update_hardware">Update hardware</string>
+    <string name="add">Add</string>
+    <string name="repeat">Repeat</string>
+
+    <string name="timing">Timing</string>
+    <string name="set_the_timer">Set timer</string>
+
+    <!-- 重复选项 -->
+    <string name="once">Performed once</string>
+    <string name="every_day">Everyday</string>
+    <string name="working_day">Working day</string>
+    <string name="weekend">Weekend</string>
+    <string name="custom">Custom</string>
+    <!-- 星期选项 -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <!-- 开关定时选项Switch timing choose -->
+    <string name="switch_1">Switch-1</string>
+    <string name="switch_2">Switch-2</string>
+    <string name="switch_3">Switch-3</string>
+    <string name="switch_all">Switch-all</string>
+
+    <string name="check_and_update">Checking update</string>
+    <string name="updating">Updating, please wait....</string>
+    <string name="rescan_connection">Detects that a new device, rescan connection</string>
+
+
+    <!-- settings -->
+    <string name="no_connect_recovery_tip">Currently not connecting any device, only can delete APP date, whether go on or not? </string>
+    <string name="reset_error_tip">Device reset failed, please check the device working status, whether continue to delete APP data?</string>
+    <string name="delete_app_data_tip">Deleting the APP data,please wait</string>
+
+    <!-- 权限管理 Authority management-->
+    <string name="main_phone_can_not_be_delete">Main phone can not cancel authorization, if want to cancel, please reset</string>
+
+    <string name="drag_mode_tip">Current is edit mode, you can group the devices </string>
+    <string name="scene_drag_mode_tip">Current is edit mode, you can select the device and slide it to the color palette</string>
+    <string name="none_mode_tip">Current is normal mode, device can not be clicked</string>
+
+    <string name="text_ssid">WIFI：</string>
+    <string name="text_psw">Password</string>
+    <string name="btn_conf">Setup</string>
+    <string name="conf_device">Setup device</string>
+    <string name="btn_stop_conf">Stop</string>
+
+    <!-- 连接状态提示Connection status alert -->
+    <string name="connection_is_success">Connection recovered</string>
+    <string name="connection_is_fail">Disconnected, please check if the device is working properly</string>
+
+    <!-- 新手指导字符New user guide character  -->
+    <string name="already_know">Noted</string>
+    <string name="add_wifi_guide">Wifi device can be only searched after setup</string>
+    <string name="home_guide_tip_1">Refirect to scanning page</string>
+    <string name="home_guide_tip_2">Click here switch to slide mode, in this mode you can slide the device to assign scenes </string>
+    <string name="home_guide_tip_3">Same here</string>
+    <string name="scene_guide_tip_1">Long press here can rename the scene</string>
+    <string name="scene_guide_tip_2">Click here can switch to drag mode, in this mode you can put the light to the color palette and changing light colors, long press and alide the device to unity color, double click the device is delete  </string>
+    <string name="there_is_has_not_alert">No warming information</string>
+
+    <string name="update_scene_name">Rename scene </string>
+    <string name="wifi_config">Wifi setup</string>
+
+    <string name="scan_no_zig_dev_tip">If you can not get the Zigbee device,\n1、Please check if the gateway work properly\n2、Please confirm if you have control authority\n3、If the previous 2 steps failed, please reconnect the gateway and reset factory default on the setting page</string>
+
+
+    <!-- error msg -->
+
+    <string name="back">Back</string>
+    <string name="scan">Scan</string>
+    <string name="gateway">Gateway</string>
+
+
+    <string name="add_wifi_format">%1$s Have a connection.</string>
+
+
+    <string name="whole_open">Open</string>
+    <string name="half_open">Half open</string>
+    <string name="whole_close">Closed</string>
+
+    <string name="speed">Speed</string>
+    <string name="direction">Direction</string>
+
+    <string name="c_speed_1">Level 1</string>
+    <string name="c_speed_2">Level 2(default)</string>
+    <string name="c_speed_3">Level 3</string>
+    <string name="c_speed_4">Level 4</string>
+
+    <string name="ungroup_bind_device">Lifting related binding devices</string>
+    <string name="device_referesh_location_error">Equipment status is unknown, please check whether the device is powered.</string>
+</resources>
